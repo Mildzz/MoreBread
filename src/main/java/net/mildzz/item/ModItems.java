@@ -12,6 +12,14 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item CINNAMON_BUN = registerFood("cinnamon_bun",
             new Item(new FabricItemSettings().food(ModFoodComponents.CINNAMON_BUN)));
+    public static final Item PANCAKES = registerFood("pancakes",
+            new Item(new FabricItemSettings().food(ModFoodComponents.PANCAKES)));
+    public static final Item BLUEBERRY_MUFFIN = registerFood("blueberry_muffin",
+            new Item(new FabricItemSettings().food(ModFoodComponents.BLUEBERRY_MUFFIN)));
+    public static final Item JELLY_FILLED_BUN = registerFood("jelly_filled_bun",
+            new Item(new FabricItemSettings().food(ModFoodComponents.JELLY_FILLED_BUN)));
+    public static final Item BUTTER = registerFood("butter",
+            new Item(new FabricItemSettings()));
 
     private static Item registerFood(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreBread.MOD_ID, name), item);
@@ -19,6 +27,10 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.BREAD, CINNAMON_BUN);
+        addToItemGroup(ModItemGroup.BREAD, PANCAKES);
+        addToItemGroup(ModItemGroup.BREAD, BLUEBERRY_MUFFIN);
+        addToItemGroup(ModItemGroup.BREAD, JELLY_FILLED_BUN);
+        addToItemGroup(ModItemGroup.BREAD, BUTTER);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item) {

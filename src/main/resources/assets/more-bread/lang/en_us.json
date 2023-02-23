@@ -1,4 +1,8 @@
 {
   "item.more-bread.cinnamon_bun": "Cinnamon Bun",
-  "itemgroup.bread": "Bread"
+  "item.more-bread.pancakes": "Pancakes",
+  "item.more-bread.blueberry_muffin": "Blueberry Muffin",
+  "item.more-bread.jelly_filled_bun": "Jelly Filled Bun",
+  "item.more-bread.butter": "Butter",
+  "itemgroup.bread": "More Bread"
 }

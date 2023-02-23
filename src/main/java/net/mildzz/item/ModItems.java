@@ -20,6 +20,8 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.JELLY_FILLED_BUN)));
     public static final Item BUTTER = registerFood("butter",
             new Item(new FabricItemSettings()));
+    public static final Item BLUEBERRY = registerFood("blueberry",
+            new Item(new FabricItemSettings().food(ModFoodComponents.BLUEBERRY)));
 
     private static Item registerFood(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreBread.MOD_ID, name), item);
@@ -31,6 +33,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.BREAD, BLUEBERRY_MUFFIN);
         addToItemGroup(ModItemGroup.BREAD, JELLY_FILLED_BUN);
         addToItemGroup(ModItemGroup.BREAD, BUTTER);
+        addToItemGroup(ModItemGroup.BREAD, BLUEBERRY);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item) {

@@ -4,11 +4,18 @@
   "key": {
     "#": {
       "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "more-bread:blueberry"
+    },
+    "S": {
+      "item": "minecraft:sugar"
     }
   },
   "pattern": [
-    "##",
-    "##"
+    " S ",
+    "BBB",
+    "###"
   ],
   "result": {
     "item": "more-bread:blueberry_muffin"

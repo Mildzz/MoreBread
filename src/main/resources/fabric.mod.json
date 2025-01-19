@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "morebread",
+	"version": "${version}",
+	"name": "MoreBread",
+	"description": "This is an epic bread mod!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/morebread/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mildzz.morebread.MoreBread"
+		],
+		"client": [
+			"net.mildzz.morebread.MoreBreadClient"
+		],
+		"fabric-datagen": [
+			"net.mildzz.morebread.MoreBreadDataGenerator"
+		]
+	},
+	"mixins": [
+		"morebread.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

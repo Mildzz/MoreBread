@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:wheat"
+    },
+    "S": {
+      "item": "morebread:blueberries"
+    }
+  },
+  "pattern": [
+    " S ",
+    "BBB",
+    "CCC"
+  ],
+  "result": {
+    "count": 2,
+    "item": "morebread:blueberry_muffin"
+  }
+}

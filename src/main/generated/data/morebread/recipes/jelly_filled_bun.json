@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:wheat"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "BSB",
+    "CCC"
+  ],
+  "result": {
+    "count": 2,
+    "item": "morebread:jelly_filled_bun"
+  }
+}
